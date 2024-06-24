@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Bicycles - Bicycle Information Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="managebicycles.html">Manage Bicycles</a></li>
+                <li><a href="analytics.html">Data Analytics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Manage Bicycles</h1>
+        <form id="bicycle-form">
+            <label for="bicycle-name">Bicycle Name:</label>
+            <input type="text" id="bicycle-name" name="Hero" required>
+            <label for="bicycle-type">Type:</label>
+            <input type="text" id="bicycle-type" name="Gear" required>
+            <label for="bicycle-price">Price:</label>
+            <input type="number" id="bicycle-price" name="$500" required>
+            <button type="submit">Add Bicycle</button>
+        </form>
+        <table id="bicycle-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Price</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows -->
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bicycle Information Hub</p>
+    </footer>
+</body>
+</html>
